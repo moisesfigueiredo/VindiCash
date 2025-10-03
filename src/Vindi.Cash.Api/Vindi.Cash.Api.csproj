@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Vindi.Cash.Api.Application\Vindi.Cash.Api.Application.csproj" />
+    <ProjectReference Include="..\Vindi.Cash.Api.Domain\Vindi.Cash.Api.Domain.csproj" />
+    <ProjectReference Include="..\Vindi.Cash.Api.ImMemoryDatabase\Vindi.Cash.Api.ImMemoryDatabase.csproj" />
+    <ProjectReference Include="..\Vindi.Cash.Api.IoC\Vindi.Cash.Api.IoC.csproj" />
+  </ItemGroup>
+
+</Project>
