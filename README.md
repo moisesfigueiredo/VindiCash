@@ -20,4 +20,4 @@
 
 * Para fins de praticidade, foi utilizado InMemoryDatabase;
 
-* Há margens para melhorias, como Unity Of Work, Exception Handlder, Docker etc; porém o meu foco foi em arquitetura.
+* Há margens para melhorias, como Unity Of Work, Exception Handler, Docker etc; porém o meu foco foi em arquitetura.
