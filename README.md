@@ -10,6 +10,6 @@
   
 *  Implementado alguns princípios do DDD deixando ainda em aberto a possibilidade de tornar os domínios "Ricos";
 
-*  Para fins de praticidade, foi utilizado InMemoryDatabase
+*  Para fins de praticidade, foi utilizado InMemoryDatabase;
 
-*  Há margens para melhorias, como Unity Of Work, Docker etc. Porém o meu foco foi em arquitetura
+*  Há margens para melhorias, como Unity Of Work, Docker etc. Porém o meu foco foi em arquitetura.
